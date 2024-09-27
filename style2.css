@@ -1,0 +1,14 @@
+.a{
+padding:10px;}
+#b{
+background-color:#F51720;}
+.b1{
+  position:relative;
+  left:500px;
+  display:flex;
+border:10px solid red;
+background-color:lightgreen;
+justify-content:center;
+width:450px;
+align-items:center;
+}

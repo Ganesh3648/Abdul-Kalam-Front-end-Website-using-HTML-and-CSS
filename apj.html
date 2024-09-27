@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>website Rmembering APJ Abdul Kalam</title>
+  </head>
+  <style media="screen">
+    body{
+      margin:0px;
+      background-color:#FAF3F0;
+    }
+    .topnav{
+      position:fixed;
+      display:flex;
+      height:150px;
+      width:100%;
+      background:linear-gradient(30deg,#27005D,black);
+      justify-content:center;
+      align-items:center;
+      z-index:1;
+    }
+    .topnav h1{
+      color:white;
+      font-size:40px;
+    }
+    .topnextnav{
+      position:fixed;
+      z-index:1;
+      width:100%;
+      top:153px;
+    }
+    .nextnav{
+      top:-20px;
+      position:relative;
+      display:flex;
+
+      justify-content:center;
+      align-items:center;
+      background-color:#0D1282;
+      box-shadow:2px 2px 5px;
+    }
+    .nextnav li{
+      display:block;
+      list-style:none;
+      padding:20px;
+      font-size:20px;
+      padding-left:30px;
+    }
+    .nextnav a{
+      color:white;
+      text-decoration:none;
+    }
+    .nextnav li:hover{
+      background-color:red;
+    }
+    .nextnav a:hover{
+      color:black;
+    }
+    .nextnav a:active{
+      color:#C5DFF8;
+    }
+    .container1{
+      top:250px;
+      left:75px;
+      position:absolute;
+      height:auto;
+      width:90%;
+      margin:auto;
+      border:0px solid black;
+      border-radius:15px;
+      background-color:white;
+      box-shadow:0px 0px 10px;
+      z-index:-1;
+    }
+    .insidecontainer1{
+      display:grid;
+      grid-template-columns:1fr 1fr;
+    }
+    .img1{
+      height:300px;
+      width:400px;
+      padding:30px;
+      padding-left:200px;
+
+    }
+    .insidebox li{
+      font-size:25px;
+
+    }
+    .insidelist li{
+      font-size:20px;
+      list-style-type:square;
+
+    }
+    .tableinsidecontainer{
+      margin:auto;
+      padding:40px;
+      padding-left:140px;
+    }
+    .tableinsidecontainer td{
+      font-size:23px;
+      padding:10px;
+      border-collapse:collapse;
+    }
+    .tableinsidecontainer tr:nth-child(Even){
+      background-color:#EDE4FF;
+    }
+    .tableinsidecontainer tr:nth-child(Odd){
+      background-color:#CEE6F3;
+    }
+    table{
+      width:90%;
+    }
+
+
+  </style>
+  <body>
+    <div class="topnav">
+      <h1>Remembering A.P.J.Abdul Kalam</h1>
+    </div>
+    <div class="topnextnav">
+      <ol class="nextnav">
+        <li>
+        <a href="#">Home</a>
+        </li>
+        <li>
+          <a href="apj-p1.html">Biography</a>
+        </li>
+        <li>
+          <a href="apj-p2.html">Accomplishments</a>
+        </li>
+        <li>
+          <a href="apj-p-3.html">Photos</a>
+        </li>
+        <li>
+          <a href="moreinfo.html">More info</a>
+        </li>
+      </ol>
+    </div>
+    <div class="container1">
+      <div class="insidecontainer1">
+      <img class="img1"src="apj-photo1.jpg" alt="A.P.J.Abdul kalam photo">
+      <ul class="insidebox">
+        <li><h2>A.P.J.Abdul Kalam</h2></li>
+        <li>11th President of India</li>
+        <li>Born on 15 October 1931</li>
+        <li>Born in Rameswaram,Tamil Nadu, India</li>
+        <li><b>Achievements:</b>
+        <ul class="insidelist">
+          <li>Contribution to India's Space Program </li>
+          <li>Pokhran-II Nuclear Tests</li>
+          <li>  Development of Agni and Prithvi Missiles</li>
+        </ul></li>
+      </ul></div>
+      <div class="tableinsidecontainer">
+        <b style="font-size:27px;">Awards:</b>
+      <table>
+        <tbody>
+          <tr>
+            <td>Bharat Ratna</td>
+            <td>1997</td>
+            <td> field of science and technology</td>
+          </tr>
+          <tr>
+            <td>Padma Bhushan</td>
+            <td>1981</td>
+            <td>development of India's space technology</td>
+          </tr>
+          <tr>
+            <td>Padma Vibhushan</td>
+            <td>1990</td>
+            <td> development of ballistic missile technology</td>
+          </tr>
+          <tr>
+            <td>Indira Gandhi Award for National Integration</td>
+            <td>1997</td>
+            <td>his efforts to promote national integration and communal harmony.</td>
+          </tr>
+          <tr>
+            <td>Von Braun Award</td>
+            <td>2013</td>
+            <td>Excellence in space technology and its applications</td>
+          </tr>
+        </tbody>
+      </table>
+      </div>
+    </div>
+  </body>
+</html>
